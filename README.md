@@ -1,6 +1,20 @@
 OpenTweet
 =========
 
+Kai's notes
+-----------
+
+* Used swift 3 to do this
+* I did not see any images in the dataset, so skipped the image attachments.  This would be straightforward enough to implement
+* Used a simple async loader to grab avatars, also using a simple static cache
+* Hyperlinks and twitter handles are highlighted but not clickable.  There are a number of obj-c lib out there for this, I'm sure the swift equivalent exist.
+* Added a simple cell animation on display and a simple custom segue to animate transition from timeline to thread.
+
+Pls email me if you have any questions.
+
+Original comments below
+-----------------------
+
 Hi Kai! Welcome to your iOS coding excercise.
 
 This is a very simple twitter like client. You'll find a json file under Data/ with a short tweet timeline. You are asked to write the app that will display the tweets, similar to what a Twitter client would do.
